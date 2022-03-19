@@ -118,7 +118,7 @@ main {
 
 @media (max-width: 900px) {
 	.content {
-		padding: 2rem;
+		padding: 2rem 1rem;
 	}
 }
 
@@ -142,7 +142,7 @@ main {
 .questions li {
 	border-bottom: 1px solid #ccc;
 	position: relative;
-	padding: 0.5rem 0;
+	padding: 0.5rem 1rem 0.5rem 0;
 }
 
 .question-container {
@@ -158,6 +158,7 @@ main {
 
 .questions li:hover .question {
 	font-weight: bold;
+	color: #e69077;
 }
 
 .question-container:hover ~ .down,
