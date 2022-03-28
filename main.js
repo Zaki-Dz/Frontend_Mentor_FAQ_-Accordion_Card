@@ -6,6 +6,6 @@ questions.forEach(question => {
 			question.classList.remove('active')
 		})
 
-		question.classList.toggle('active')
+		question.classList.add('active')
 	})
 })
